@@ -8,10 +8,10 @@
 
 ## 🔗 Live Demos
 
-| Problem | Live Link |
-|---|---|
-| Problem 1 — Tic-Tac-Toe AI | *(Add Streamlit Cloud URL after deploy)* |
-| Problem 11 — GPS Route Finder | *(Add Streamlit Cloud URL after deploy)* |
+| Problem                       | Live Link                                |
+| ----------------------------- | ---------------------------------------- |
+| Problem 1 — Tic-Tac-Toe AI    | _(Add Streamlit Cloud URL after deploy)_ |
+| Problem 11 — GPS Route Finder | _(Add Streamlit Cloud URL after deploy)_ |
 
 ---
 
@@ -35,16 +35,19 @@ AI_ProblemSolving/
 ## Problem 1 — Interactive Game AI (Tic-Tac-Toe System)
 
 ### Case Study
+
 A gaming company wants to create an AI opponent for a web-based Tic-Tac-Toe game. The AI always makes the optimal move. This implementation compares two algorithms — **Minimax** and **Alpha-Beta Pruning** — in real time.
 
 ### Algorithms Used
 
 #### Minimax Algorithm
+
 - Recursively explores **all possible game states** to find the optimal move
 - Time complexity: **O(b^d)** where b = branching factor, d = depth
 - Guarantees optimal play but explores every node — slower
 
 #### Alpha-Beta Pruning
+
 - Enhancement of Minimax that **prunes branches** that cannot affect the final decision
 - Maintains two bounds: **α** (best for maximizer) and **β** (best for minimizer)
 - If `β ≤ α`, the branch is pruned (no further exploration needed)
@@ -80,6 +83,7 @@ Pruning gain: 72.2%
 ```
 
 ### Features
+
 - Choose to play as X or O
 - Toggle between Minimax and Alpha-Beta in the same game
 - Real-time node count and execution time display
@@ -91,11 +95,13 @@ Pruning gain: 72.2%
 ## Problem 11 — GPS-Based City Route Finder (A\* Algorithm)
 
 ### Case Study
+
 A navigation system finds the fastest route between two city locations using an **informed search strategy**. The city is modeled as a weighted graph. The system uses the A\* algorithm with a heuristic to avoid exploring unnecessary nodes.
 
 ### Algorithm Used
 
 #### A\* Search
+
 - Informed search algorithm that combines **actual cost g(n)** and **heuristic estimate h(n)**
 - **f(n) = g(n) + h(n)**
   - `g(n)` = cost from start to node n
@@ -144,6 +150,7 @@ A* Search Result:
 ```
 
 ### Features
+
 - Preloaded graphs: Assignment example + Indian Cities network
 - Dynamically add nodes and edges through the UI
 - Color-coded path visualization (blue = on path, red = explored but pruned)
@@ -155,6 +162,7 @@ A* Search Result:
 ## Execution Steps (Both Problems)
 
 ### Option A — Run Locally
+
 ```bash
 git clone https://github.com/<your-username>/AI_ProblemSolving_<RegisterNumber>
 cd AI_ProblemSolving_<RegisterNumber>
@@ -167,6 +175,7 @@ cd ../Problem11_GPSRouteFinder && pip install -r requirements.txt && streamlit r
 ```
 
 ### Option B — Streamlit Cloud (Live Website)
+
 1. Push this repository to GitHub (public)
 2. Go to [share.streamlit.io](https://share.streamlit.io)
 3. Click **New App** → select this repo
@@ -177,23 +186,24 @@ cd ../Problem11_GPSRouteFinder && pip install -r requirements.txt && streamlit r
 
 ## Comparison Summary
 
-| Feature | Minimax | Alpha-Beta | A* |
-|---|---|---|---|
-| Problem Type | Game AI | Game AI | Pathfinding |
-| Completeness | ✅ Always finds optimal | ✅ Same as Minimax | ✅ Optimal if h admissible |
-| Nodes Explored | All (b^d) | Pruned (b^(d/2)) | Guided by heuristic |
-| Speed | Slower | **Faster (50–70% less work)** | **Fastest for large graphs** |
+| Feature        | Minimax                 | Alpha-Beta                    | A\*                          |
+| -------------- | ----------------------- | ----------------------------- | ---------------------------- |
+| Problem Type   | Game AI                 | Game AI                       | Pathfinding                  |
+| Completeness   | ✅ Always finds optimal | ✅ Same as Minimax            | ✅ Optimal if h admissible   |
+| Nodes Explored | All (b^d)               | Pruned (b^(d/2))              | Guided by heuristic          |
+| Speed          | Slower                  | **Faster (50–70% less work)** | **Fastest for large graphs** |
 
 ---
 
 ## Team Members
 
-| Name | Register Number |
-|---|---|
-| Member 1 | *(your reg number)* |
-| Member 2 | *(partner reg number)* |
+| Name            | Register Number |
+| --------------- | --------------- |
+| Mohamed Afzal F | RA2411026050150 |
+| Arshad Navaz    | RA2411025050176 |
 
 ---
 
-*Submitted for AI Problem Solving Assignment — April 2026*
+_Submitted for AI Problem Solving Assignment — April 2026_
+
 ## Team Project - AI Problem Solving
