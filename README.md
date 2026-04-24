@@ -8,10 +8,10 @@
 
 ## 🔗 Live Demos
 
-| Problem                       | Live Link                             |
-| ----------------------------- | ------------------------------------- |
-| Problem 1 — Tic-Tac-Toe AI    |                                       |
-| Problem 11 — GPS Route Finder | https://gps-route-afzal.streamlit.app |
+| Problem                       | Live Link                                                     |
+| ----------------------------- | ------------------------------------------------------------- |
+| Problem 1 — Tic-Tac-Toe AI    | https://tictactoe-arshadnavaz.streamlit.app git add README.md |
+| Problem 11 — GPS Route Finder | https://gps-route-afzal.streamlit.app                         |
 
 ---
 
