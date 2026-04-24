@@ -8,10 +8,10 @@
 
 ## 🔗 Live Demos
 
-| Problem                       | Live Link                                |
-| ----------------------------- | ---------------------------------------- |
-| Problem 1 — Tic-Tac-Toe AI    | _(Add Streamlit Cloud URL after deploy)_ |
-| Problem 11 — GPS Route Finder | _(Add Streamlit Cloud URL after deploy)_ |
+| Problem                       | Live Link                              |
+| ----------------------------- | -------------------------------------- |
+| Problem 1 — Tic-Tac-Toe AI    | https://tictactoe-afzal.streamlit.app/ |
+| Problem 11 — GPS Route Finder | https://gps-route-afzal.streamlit.app  |
 
 ---
 
