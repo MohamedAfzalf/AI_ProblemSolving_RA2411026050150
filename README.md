@@ -186,12 +186,12 @@ cd ../Problem11_GPSRouteFinder && pip install -r requirements.txt && streamlit r
 
 ## Comparison Summary
 
-| Feature        | Minimax                 | Alpha-Beta                    | A\*                          |
-| -------------- | ----------------------- | ----------------------------- | ---------------------------- |
-| Problem Type   | Game AI                 | Game AI                       | Pathfinding                  |
-| Completeness   | ✅ Always finds optimal | ✅ Same as Minimax            | ✅ Optimal if h admissible   |
-| Nodes Explored | All (b^d)               | Pruned (b^(d/2))              | Guided by heuristic          |
-| Speed          | Slower                  | **Faster (50–70% less work)** | **Fastest for large graphs** |
+| Feature        | Minimax              | Alpha-Beta                    | A\*                          |
+| -------------- | -------------------- | ----------------------------- | ---------------------------- |
+| Problem Type   | Game AI              | Game AI                       | Pathfinding                  |
+| Completeness   | Always finds optimal | Same as Minimax               | Optimal if h admissible      |
+| Nodes Explored | All (b^d)            | Pruned (b^(d/2))              | Guided by heuristic          |
+| Speed          | Slower               | **Faster (50–70% less work)** | **Fastest for large graphs** |
 
 ---
 
